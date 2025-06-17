@@ -1,6 +1,11 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css'; // Овој ред е нов
 import App from './App';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
