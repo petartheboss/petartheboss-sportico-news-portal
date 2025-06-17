@@ -1,3 +1,4 @@
+
 /* global __firebase_config, __app_id, __initial_auth_token */
 import React, { useState, useEffect, useRef, createContext, useContext, lazy, Suspense, memo, useCallback } from 'react';
 import { initializeApp } from 'firebase/app';
@@ -1283,3 +1284,4 @@ const AuthErrorDisplay = ({ error }) => {
         </>
     );
 };
+
